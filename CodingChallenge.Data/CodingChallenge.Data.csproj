@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CodingChallenge.Data</RootNamespace>
     <AssemblyName>CodingChallenge.Data</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -52,8 +52,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Circle.cs" />
+    <Compile Include="Classes\EquilateralTriangle.cs" />
     <Compile Include="Classes\FormaGeometrica.cs" />
+    <Compile Include="Classes\GeometricShape.cs" />
+    <Compile Include="Classes\Language.cs" />
+    <Compile Include="Classes\Rectangle.cs" />
+    <Compile Include="Classes\Square.cs" />
+    <Compile Include="Classes\Trapezium.cs" />
+    <Compile Include="Helper\ShapeTranslationsHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportShape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
